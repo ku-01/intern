@@ -1,0 +1,400 @@
+@font-face {
+    font-family: "AktivGrotesk";
+    src: url("../assets/fonts/AktivGrotesk/AktivGroteskW06Regular/AktivGroteskW06Regular.woff");
+}
+body{
+    font-family: AktivGrotesk;
+}
+
+/* top section */
+.section{
+    display: flex;
+    margin-right: 0 10%;
+}
+
+.top-content{
+    margin-top: 140px;
+    padding: 2%;
+}
+
+.left{
+    flex: 2;
+    padding: 10%;
+}
+
+.right{
+    flex: 1;
+    margin-top: 120px;
+}
+
+.looking-for-a-lollip, .body{
+    color: #31373D;
+    width: 489px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(59, 59, 59, 0);
+}
+
+.looking-for-a-lollip{
+    font-size: 300%;
+    font-weight: 700;
+    line-height: 58px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+.body{ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.left button{
+    /* margin: 10px; */
+    border-radius: 3px;
+    width: 40%;
+    height: 48px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 19px;
+}
+.primary{
+    background-color: #0099FF;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    margin-right: 10px;
+}
+.secondry{
+    color: #31373D;
+    border: none;
+    border: 2px solid #0099FF;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    /* width: 222px; */
+    /* height: 48px; */
+}
+@media screen and (max-width: 768px) {
+
+    #content-desktop {display: none;}
+        
+    
+    }
+
+/* top section ends */
+
+
+/* mid section 1 */
+.bg{
+    /* background-image: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%); */
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+.bg img{
+    margin-top: -20%;
+}
+.head-in-two {
+    background-image: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%);
+    padding-bottom: 20%;
+    color: #31373D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 5%;
+}
+
+/* mid section 1 ends */
+
+/* mid section 2 starts */
+.mid-section-2{
+    margin-top: 5%;
+}
+.compare-price{
+    color: #31373D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+}
+.loreum-subtext{
+    color: #8B8E91;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#serving{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.button-select {
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    width: 125px;
+    height: 46px;
+    cursor: pointer;
+    color: #4A4A4A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.active, .button-select:hover {
+    border: 3px solid #0099FF;
+}
+
+.toggle{
+    text-align: center;
+}
+.toggle div{
+    display: flex;
+    margin-left: 42%;
+}
+.cards{
+    display: flex;
+    margin: 0 20%;
+    margin-top: 5%;
+}
+.lollipop, .icecandy{
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+    width: 238px;
+    height: 180px;
+    padding: 5%;
+}
+.text-head{
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 15%;
+}
+.price{
+    color: #3D3C31;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+.sub-it{
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    width: 78px;
+    text-align: left;
+}
+.sub-text{
+    color: #31373D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 156px;
+    text-align: left;
+}
+.savings{
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+    width: 214px;
+    height: 230px;
+    margin-top: -4%;
+    padding: 5%;
+}
+.head-text{
+    color: #31373D;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 12%;
+}
+.saved{
+    color: #0099FF;
+    font-family: AktivGrotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+/* mid section 2 ends */
+
+/* customer section starts */
+.customer-section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.customer{
+    color: #31373D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+}
+
+.slideshow-container {
+    /* display: flex; */
+    width: 100%;
+    margin: auto;
+}
+  
+  /* Hide the images by default */
+.mySlides1 {
+    display: none;
+}
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    background-image: linear-gradient(221.9deg, #D5E2E9 0%, #EAEEF1 100%);
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+    margin: 0 2px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active1, .dot:hover {
+    background-color: #0099FF;
+    background-image: none;
+}
+  
+  /* Fading animation */
+.fade1 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.card-holder{
+    margin-top: 5%;
+}
+.round-image{
+    flex: 2;
+    text-align: right;
+}
+.detail{
+    flex: 3;
+    text-align: left;
+    margin-left: 5%;
+}
+.detail-content{
+    color: #8B8E91;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    width: 366px;
+    text-align: left;
+}
+.round-image img{
+    border-radius: 100%;
+}
+
+.name{
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.desig{
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 7%;
+}
+
+/* end section starts */
+.end-section{
+    margin-bottom: 7%;
+}
+
+.head-bot{
+    margin-top: 10%;
+    color: #31373D;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 4%;
+}
+.detail-content-2{
+    color: #8B8E91;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 387px;
+    text-align: left;
+    margin-bottom: 4%;
+}
+.bottom{
+    background-color: #0099FF;
+    border-radius: 3px;
+    width: 220px;
+    height: 48px;
+}
+
+.detail-2{
+    flex: 3;
+    margin-left: 18%;
+}
+.image-2{
+    flex: 2;
+}
